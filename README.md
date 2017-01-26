@@ -3,6 +3,10 @@
 2. every order, customer id and order id are complete, without missing
 
 # Documents:
+## input
+The inputUnordered.txt file in input repository, includes 12 different customer.
+
+The input1user.txt file in sample_input repository, include 1 customer.
 
 ## UserData class
 In this project, I store events data in UserData class, which is uniquely identified by each customer id.
@@ -17,17 +21,19 @@ Given event e, create or update UserData class
 
 When there is a incoming event, when there is no matching UserData class, create a new class, and storing data according to the event type. When there is a matching UserData class, update the information in class.
 
-## TopXSimpleLTVCustomers(x)
+## TopXSimpleLTVCustomers(10)
 
-Return the top x customers with the highest Simple Lifetime Value from data D.
+Return the top 10 customers with the highest Simple Lifetime Value from UserData.
 
-The inputUnordered.txt file includes 12 different customer.
+**slv = 52 * a * 10**, where a is the average customer value per week, **a = user_total_expense/weeks**, weeks = week_now - week_start, and week_now and week_start are week identifiers,  
 
 ## Run the program:
 Run the program need download a package: json-simple-1.1.1.jar
 
-In terminal, go to the current repository.
+In terminal, go to the current directory
 
+```
 Compile command: javac -cp ./json-simple-1.1.1.jar SimpleLifetimeValue.java
 
 Run command: java -cp .:./json-simple-1.1.1.jar SimpleLifetimeValue ./inputUnordered.txt
+```
