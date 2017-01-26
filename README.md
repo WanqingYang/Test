@@ -3,17 +3,19 @@
 2. every order, customer id and order id are complete, without missing
 
 # Documents:
-In this project, I store events data in class, which is identified by each customer id.
+
+## UserData class
+In this project, I store events data in UserData class, which is uniquely identified by each customer id.
 Because the events are received with no guranteed order, so in the input file,the event time of each user is unordered.
 (customer may order first then create their user profile).
 Thus track each user's order time is important.
 
-I write two functions:
+I wrote two functions:
 
 ## Ingest(e)
-Given event e, update data UserData
+Given event e, create or update UserData class
 
-When there is a incoming event, 
+When there is a incoming event, when there is no matching UserData class, create a new class, and storing data according to the event type. When there is a matching UserData class, update the information in class.
 
 ## TopXSimpleLTVCustomers(x)
 
