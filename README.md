@@ -25,7 +25,7 @@ When there is a incoming event, when there is no matching UserData class, create
 
 Return the top 10 customers with the highest Simple Lifetime Value from UserData.
 
-**slv = 52 * a * 10**, where a is the average customer value per week, **a = user_total_expense/weeks**, weeks = week_now - week_start, and week_now and week_start are week identifiers,  
+**slv = 52 * a * 10**, where a is the average customer value per week, **a = user_total_expense/weeks**, weeks = week_now - week_start, and week_now and week_start are week identifiers, week_now is the current week from epoch(01-01-1970:00:00:00), week_start is the start week when customers' first event occured. 
 
 ## Run the program:
 Run the program need download a package: json-simple-1.1.1.jar
