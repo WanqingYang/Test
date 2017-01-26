@@ -1,10 +1,10 @@
 # Assumption:
-1. every event time is accurate at least to hours
-2. every order, customer id and order id are complete, without missing
+1. every event time is accurate at least to hours.
+2. every order, customer id and order id are complete, without missing.
 
 # Documents:
 ## input
-The inputUnordered.txt file in input repository, includes 12 different customer.
+The inputUnordered.txt file in input repository, includes 12 different customers.
 
 The input1user.txt file in sample_input repository, include 1 customer.
 
