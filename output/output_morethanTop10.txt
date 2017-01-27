@@ -1,0 +1,12 @@
+Start read file ./input_morethanTop10.txt
+User id: 96f55c7d8f42, Last name: Smith, city: Middletown, state: AK, Simple Lifetime Value: 23467.6.
+User id: 5rsf5g9hsssd, Last name: Page, city: New York, state: NY, Simple Lifetime Value: 7973.33.
+User id: 6aqwsz24v974, Last name: Yang, city: San Jose, state: CA, Simple Lifetime Value: 5304.0.
+User id: 10f55c7d8f42, Last name: John, city: Atlanta, state: GA, Simple Lifetime Value: 2166.67.
+User id: 7mdhs7qywhag, Last name: Yang, city: Boston, state: MA, Simple Lifetime Value: 1235.0.
+User id: 8gs2672gdjs7, Last name: Steve, city: Milpitas, state: CA, Simple Lifetime Value: 1222.7.
+User id: 2f8gj34of82d, Last name: Sam, city: Detroit, state: MI, Simple Lifetime Value: 852.0.
+User id: 16dflsnfjwe3, Last name: Adam, city: Ann Arbor, state: MI, Simple Lifetime Value: 662.32.
+User id: 3hyls9rh2dj1, Last name: Obama, city: Chicago, state: IL, Simple Lifetime Value: 640.0.
+User id: 11f55c7d8f42, Last name: Cuper, city: Charlotte, state: NC, Simple Lifetime Value: 551.52.
+User id: 13csew132w2q, Last name: Oscar, city: Anchorage, state: AK, Simple Lifetime Value: 551.52.
