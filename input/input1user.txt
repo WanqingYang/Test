@@ -1,0 +1,4 @@
+[{"type": "CUSTOMER", "verb": "NEW", "key": "5rsf5g9hsssd", "event_time": "2016-12-01:15:12.129Z", "last_name": "Page", "adr_city": "Boston", "adr_state": "MA"},
+{"type": "ORDER", "verb": "UPDATE", "key": "order26", "event_time": "2016-12-11:19:46.872Z", "customer_id": "5rsf5g9hsssd", "total_amount": "50"},
+{"type": "ORDER", "verb": "NEW", "key": "order27", "event_time": "2016-12-17:19:46.123Z", "customer_id": "5rsf5g9hsssd", "total_amount": "88"},
+{"type": "CUSTOMER", "verb": "UPDATE", "key": "5rsf5g9hsssd", "event_time": "2016-12-30:15:12.129Z", "last_name": "Page", "adr_city": "New York", "adr_state": "NY"}]
