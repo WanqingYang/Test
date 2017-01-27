@@ -4,13 +4,15 @@
 
 # Documents:
 ## input
-The inputUnordered.txt file in input repository, includes 12 different customers.
+The ```inputData.txt``` file in input repository, includes 12 different customers, time is ordered, means user create their profile first, then order products; Order new product first, then update their order.
 
-The input1user.txt file in sample_input repository, include 1 customer.
+The ```inputUnordered.txt``` file in input repository, includes the same data as the inputData.txt, but input event time is unordred, means user may order products before create thier profile; Update order first, then create this new order.
+
+The ```input1user.txt``` file in sample_input repository, include 1 customer.
 
 ## UserData class
 In this project, I store events data in UserData class, which is uniquely identified by each customer id.
-Because the events are received with no guranteed order, so in the input file,the event time of each user is unordered.
+Because the events are received with no guranteed order, in the input file, the event time of each user may be unordered(in ```inputUnordered.txt```).
 (customer may order first then create their user profile).
 Thus track each user's order time is important.
 
