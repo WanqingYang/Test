@@ -1,6 +1,7 @@
 # Assumption:
 1. every event time is accurate at least to hours.
 2. every order, customer id and order id are complete, without missing.
+3. money format is either ```12.34 USD or 12.34```
 
 # Documents:
 ## input
