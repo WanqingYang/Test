@@ -19,7 +19,7 @@ Because the events are received with no guranteed order, in the input file, the 
 (customer may order first then create their user profile).
 Thus track each user's order time is important.
 
-I wrote two functions:
+I implemented two functions:
 
 ## Ingest(e)
 Given event e, create or update UserData class
@@ -35,10 +35,13 @@ Return the top 10 customers with the highest Simple Lifetime Value from UserData
 ## Run the program:
 Run the program need download a package: json-simple-1.1.1.jar
 
-In terminal, go to the current directory
+In terminal, 
 
-```
-Compile command: javac -cp ./json-simple-1.1.1.jar SimpleLifetimeValue.java
+1.Compile source code with class path set to path of json-simple-1.1.1.jar:
 
-Run command: java -cp .:./json-simple-1.1.1.jar SimpleLifetimeValue ./inputUnordered.txt
-```
+  ```javac -cp path/to/json-simple-1.1.1.jar /path/to/SimpleLifetimeValue.java```
+  
+2.Specify input file and run the project:
+
+  ```java -cp .:path/to/json-simple-1.1.1.jar /path/to/SimpleLifetimeValue path/to/inputUnordered.txt```
+
