@@ -1,0 +1,2 @@
+Start read file ./input1user.txt
+User id: 5rsf5g9hsssd, Last name: Page, city: New York, state: NY, Simple Lifetime Value: 7973.33.
