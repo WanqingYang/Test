@@ -31,6 +31,7 @@ public class SimpleLifetimeValue {
     return (days + 4) / 7;
   }
 
+  // Store users' events information in UserData.
   public class UserData {
     public UserData(String customer_id_in) {
       total_site_visit = 0;
