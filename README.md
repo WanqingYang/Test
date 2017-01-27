@@ -9,6 +9,8 @@ The ```inputData.txt``` file in input repository, includes 12 different customer
 
 The ```inputUnordered.txt``` file in input repository, includes the same data as the inputData.txt, but input event time is unordred, means user may order products before create thier profile; Update order first, then create this new order.
 
+The ```input_morethanTop10.txt``` file in input repository, includes 13 different customers, but 2 customer have the same simple lifetime value, and they both rank 10th of all users, thus all of users aligned to rank 10th user, should be printed out in result
+
 The ```input1user.txt``` file in sample_input repository, include 1 customer.
 
 ## UserData class
